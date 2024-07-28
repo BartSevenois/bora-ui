@@ -1,0 +1,27 @@
+import { Canvas, Meta, Story, Controls } from '@storybook/blocks';
+
+import Star from "./../Star";
+import EmptyStar from "./../EmptyStar";
+import HalfStar from "./../HalfStar";
+
+<Meta title="Icons" />
+
+ # Icons
+A versatile and customizable button component for React applications. <br /> Support various sizes and states to enhance user interactions.
+
+<div className="flex gap-4">
+  <div className="flex flex-col gap-3">
+    <Star />
+    <div>Star</div>
+  </div>
+  <div className="flex flex-col gap-3">
+    <EmptyStar />
+    <div>EmptyStar</div>
+  </div>
+  <div className="flex flex-col gap-3">
+    <HalfStar />
+    <div>HalfStar</div>
+  </div>
+
+  
+</div>

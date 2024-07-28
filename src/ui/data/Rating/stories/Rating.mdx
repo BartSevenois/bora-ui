@@ -1,0 +1,14 @@
+import { Canvas, Meta, Story, Controls } from '@storybook/blocks';
+ 
+import * as RatingStories from './Rating.stories';
+
+<Meta title="Data/Rating/Docs" />
+
+# Rating
+
+Used to show the rating of customers.
+
+**Used components**: `Star` | `HalfStar` | `EmptyStar`
+
+<Canvas of={RatingStories.Default} />
+<Controls of={RatingStories.Default} />

@@ -1,0 +1,15 @@
+import { Canvas, Meta, Story, Controls } from '@storybook/blocks';
+ 
+import * as ButtonStories from './Button.stories';
+import Button from "./../Button";
+
+<Meta title="Elements/Button/Docs" />
+
+ # Button
+A versatile and customizable button component for React applications. <br /> Support various sizes and states to enhance user interactions.
+
+<Canvas of={ButtonStories.Default} />
+<Controls of={ButtonStories.Default} />
+
+## Sizes
+<Canvas of={ButtonStories.Sizes} />
